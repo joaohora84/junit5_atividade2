@@ -36,7 +36,7 @@ class MathUtilTest {
         
     }
     
-    @Test
+       @Test
     void textMdcParesP2(){
         final int a = 16;
         final int b = 8;
@@ -115,5 +115,6 @@ class MathUtilTest {
         final int obtido = mdc(a,b);
         assertEquals(esperado, obtido);
     }
+
     
 }
